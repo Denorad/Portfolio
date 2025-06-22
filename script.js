@@ -1,4 +1,6 @@
-let frenchFlag = true
+let storedLang = localStorage.getItem("lang");
+let frenchFlag = storedLang === null ? true : storedLang === "true";
+setLanguage(frenchFlag);
 
 const en = {
     "Présentation": "About me",
