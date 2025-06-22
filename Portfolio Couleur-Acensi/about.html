@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<html>
+    <body>
+        <header>
+            <a class="mainMenuBtn1 menuTxt" href="index.html">Menu principal</a>
+            <a class="mainMenuBtn2 menuTxt" href="skills.html">Compétences</a>
+            <a class="mainMenuBtn3 menuTxt" href="about.html">Présentation</a>
+            <a class="mainMenuBtn4 menuTxt" href="projects.html">Projets</a>
+            <button class="containerDrapeau" onclick="changeLanguage()"><img src="images/drapeauFrançais.png" alt="drapeauPays" class="drapeau"></button>
+        </header>
+         <div class="mainPage">
+            <div class="cPartie1 cPartie">
+                <div class="rPartie1 rPartie">
+                    <p><b>Présentation</b></p>
+                    <p id="presentation">Je m'appelle Alexandre, j'habite en France à Paris. J'aime l'art, la programmation, et le tennis. Je suis un développeur de jeux vidéos, donc j'ai de l'experience dans cette industrie. De plus, depuis 2 ans je fais de la programmation, surtout en Javascript, ainsi si vous avez besoin que je vous crée un site web je suis disponible. J'ai de l'experience avec de nombreux outils, par exemple avec Docker et Node.js.</p>
+                </div>
+                <div class="rPartie2 rPartie">
+                    <img src="images/moiPhoto.png" alt="moi" class="moi" id="picture">
+                </div>
+            </div>
+            <div class="cPartie2 cPartie">
+                <div class="rPartie84 rPartie">
+                    <div class="lang-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Langues que je connais</th>
+                                </tr>
+                                <tr>
+                                    <td><b>Langue</b></th>
+                                    <td><b>Niveau</b></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableauDeLangue"></tbody>
+                        </table>
+                    </div>
+                    <div class="lang-img-container">
+                        <img src="images/language_yellow.svg" alt="languages img" class="imgs languageImg">
+                    </div>
+                </div>
+                <div class="rPartie4 rPartie">
+                    <p><b>Pourquoi me choisir ?</b></p>
+                    <p id="choix">Je suis passioné par la programmation et la création de site web. Toujours motivé pour travailler, au point de prendre sur mon temps personnel afin de terminer un projet.</p>
+                    <div class="qualtiesContainer">
+                        <div class="quality1 quality">
+                            <p>Curieux</p>
+                        </div>
+                        <div class="quality2 quality">
+                            <p>Créatif</p>
+                        </div>
+                        <div class="quality3 quality">
+                            <p>Ambitieux</p>
+                        </div>
+                        <div class="quality4 quality">
+                            <p>Travailleur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </body>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Figtree Regular;
+    src: url("Figtree-VariableFont_wght.ttf")format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Figtree Regular;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPage>.cPartie>div {
+    display: flex;
+    background-color: #01274a;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: bottom;
+    width: 100%;
+    height: 50vh;
+    border-radius: 1vh;
+}
+
+.mainPage>.cPartie1 {
+    margin-top: 14vh;
+}
+
+.mainPage>.cPartie {
+    display: flex;
+    height: 50vh;
+    width: 99%;
+    gap: 4vh;
+}
+
+.cPartie2 {
+    margin-bottom: 2vh;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.rPartie {
+    display: flex; 
+    flex-direction: column;
+    gap: 1vh;
+    font-family: Figtree Regular;
+    font-size: 3vh;
+    color: aliceblue;
+}
+
+.rPartie>.moi {
+    height: 50vh;
+}
+
+.mainPage>.cPartie>div>* {
+    padding: 2vh;
+}
+
+.rPartie2 {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.rPartie84>div>ol {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-left: 3vh;
+}
+.imgs {
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.rPartie84 {
+    display: flex;
+    flex-direction: row;
+}
+
+.lang-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 50%;
+    background-color: #FAD965;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vh;
+    color: #01274a;
+    background-position-x:  center;
+}
+
+th {
+    padding: 1vh;
+    border: 1vh solid #01274a;;
+}
+
+td {
+    padding: 1vh;
+    border: 1vh solid #01274a;;
+}
+
+.lang-img-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.qualtiesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color: #01274a;
+}
+.qualtiesContainer>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAD965;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14vh;
+    height: 14vh;
+    border-radius: 50%;
+}
+
+.cPartie {
+    padding-left: 2vh;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 0;
+        margin-top: 100%;
+    }
+    to {
+        opacity: 1;
+        margin: 0%;
+    }
+}
+
+.rPartie4>p>b {
+    color: #fad965;
+}
+
+.rPartie1>p>b {
+    color: #fad965;
+}
+
+.languageImg {
+    filter: invert(53%) sepia(47%) saturate(673%) hue-rotate(1deg) brightness(150%) contrast(101%);
+}
+
+.rPartie2 {
+    display: flex;
+    justify-content: center;
+}

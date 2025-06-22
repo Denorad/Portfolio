@@ -1,0 +1,121 @@
+{
+    "name": "HENRY Alexandre",
+    "email": "alexandre.henry@gmail.com",
+    "twitter": "https://x.com/alexandre",
+    "linkedin": "https://fr.linkedin.com/",
+    "github": "https://github.com/alexandre",
+    "picture": "images/moiPhoto.png",
+    "imageHome": "images/Group-1000001826.png",
+    "competences": {
+        "javascript": {
+            "niveau": "4/5",
+            "description": "Je suis capable en JavaScript de créer des bots discord et la partie visuel et intéractif d'un site web.",
+            "traduction": "I am able, with JavaScript, to create Discord bots as well as the visual and interactive part of a website."
+        },
+        "GDScript": {
+            "niveau": "4/5",
+            "description": "En GDScript, je peux créer des jeux vidéo en 2D et en 3D.",
+            "traduction": "With GDScript, I can create 2D and 3D video games."
+        },
+        "HTML/CSS": {
+            "niveau": "4/5",
+            "description": "Je suis en mesure de créer un site web esthétiquement plaisant, c'est-à-dire toute la partie visuelle.",
+            "traduction": "I am able to create an aesthetically pleasing website, meaning the entire visual aspect"
+        },
+        "Python": {
+            "niveau": "3/5",
+            "description": "Je suis capable de réaliser des applications et des programmes utilisant des bibliothèques.",
+            "traduction": "I am able to develop applications and programs using libraries."
+        },
+        "C++": {
+            "niveau": "2/5",
+            "description": "Je suis capable de réaliser des applications basiques.",
+            "traduction": "I am able to develop basic applications."
+        },
+        "Linux": {
+            "niveau": "1/5",
+            "description": "Je connais les techniques de base pour faire du pentesting.",
+            "traduction": "I know the basic techniques of pentesting."
+        }
+    },
+    "presentation": {
+        "français": "Je m'appelle Alexandre, j'habite en France à Paris. J'aime l'art, la programmation, et le tennis. Je suis un développeur de jeux vidéos, donc j'ai de l'experience dans cette industrie. De plus, depuis 2 ans je fais de la programmation, surtout en Javascript, ainsi si vous avez besoin que je vous crée un site web je suis disponible. J'ai de l'experience avec de nombreux outils, par exemple avec Docker et Node.js.",
+        "anglais": "My name is Alexandre, I live in France, in Paris. I love art, programming, and tennis. I am a video game developer, so I have experience in this industry. Furthermore, for two years I have been programming, especially in JavaScript, so if you need me to create a website I am available. I have experience with many tools, for example Docker and Node.js."
+    },
+    "raison": {
+        "français": "Je suis passioné par la programmation et la création de site web. Toujours motivé pour travailler, au point de prendre sur mon temps personnel afin de terminer un projet.",
+        "anglais": "I am passionate about programming and web development. Always motivated to work, even to the point of using my personal time to complete a project."
+    },
+    "presentationPagePrincipale": {
+        "français": "Programmeur depuis deux ans, je suis spécialisé dans la création de site web et de bot discord. Prêt à vous aider n'hésiter pas à me contacter par email.",
+        "anglais": "Programmer since two years, I am specialized in the making of websites and discord bots. Ready to help you, do not hesitate to contact me."
+    },
+    "qualités": {
+        "n1": {
+            "français": "Curieux",
+            "anglais": "Curious"
+        },
+        "n2": {
+            "français": "Créatif",
+            "anglais": "Creative"
+        },
+        "n3": {
+            "français": "Ambitieux",
+            "anglais": "Ambitious"
+        },
+        "n4": {
+            "français": "Travailleur",
+            "anglais": "Hard Worker"
+        }
+    },
+    "langues": {
+        "français": {
+            "niveau": "C2",
+            "traductionTitre": "french"
+        },
+        "anglais": {
+            "niveau": "C1",
+            "traductionTitre": "english"
+        },
+        "espagnol": {
+            "niveau": "B1",
+            "traductionTitre": "spanish"
+        }
+    },
+    "outils": {
+        "Docker": {
+            "niveau": "1/5",
+            "description": "Je peux construire des images Docker et en lancer une.",
+            "traduction": "I can build Docker images and launch one."
+        },
+        "Godot": {
+            "niveau": "5/5",
+            "description": "Je sais utiliser Godot afin de créer des jeux vidéo.",
+            "traduction": "I know how to use Godot to create video games."
+        },
+        "GitHub": {
+            "niveau": "3/5",
+            "description": "Je sais créer des projets sur GitHub et utiliser Git.",
+            "traduction": "I know how to create projects on GitHub and use Git."
+        },
+        "Blender": {
+            "niveau": "3/5",
+            "description": "Je suis capable de créer des modèles 3D low poly.",
+            "traduction": "I am able to create low poly 3D models."
+        },
+        "Virtual Box": {
+            "niveau": "3/5",
+            "description": "Je sais lancer des machines virtuelles Linux et Windows afin de tester des fichiers susceptibles de contenir un virus ou pour faire du pentesting.",
+            "traduction": "I know how to launch Linux and Windows virtual machines in order to test files that may contain viruses or to do pentesting."
+        }
+    },
+    "projets": {
+        "TCP": {
+            "titre": "Projet de communication par TCP",
+            "description": "Ce projet m'a permis de développer mes compétences en Python, mais surtout d'en apprendre plus sur le multithreading, les sockets et les requêtes TCP. De plus, j'ai pu apprendre à utiliser PyQt, une bibliothèque pour faire des interfaces graphiques.",
+            "traduction": "This project allowed me to develop my skills in Python, and above all to learn more about multithreading, sockets, and TCP requests. Furthermore, I was able to learn how to use PyQt, a library for building graphical interfaces.",
+            "lienOuverture": "https://github.com/Denorad/TCP-Basic",
+            "image": "images/tcp.png"
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Figtree Regular;
+    src: url("Figtree-VariableFont_wght.ttf")format("woff2");
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #01274a;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 10;
+}
+
+header>a {
+    font-size: 1.75vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Figtree Regular;
+    background-color: #01274a;
+    background-position: 90%;
+    border-radius: 1vh;
+    height: 80%;
+    width: 15vw;
+    color: aliceblue;
+}
+
+header>a:hover {
+    transform: scale(1.1);
+}
+
+.mainMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13vh;
+    width: 100%;
+    height: 95vh;
+}
+
+.mainMenu>div {
+    width: 100%;
+    margin: 1vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Figtree Regular;
+}
+
+.containerDrapeau {
+    border: none;
+    height: 100%;
+    width: 16vh;
+    object-fit: contain;
+    background: none;
+}
+
+.drapeau {
+    height: 85%;
+    width: 16vh;
+}
+
+.drapeau:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .drapeau {
+        display: flex;
+        height: 100%;
+        width: 8vh;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .containerDrapeau {
+        height: 38%;
+        width: 8vh;
+    }
+
+    .menuTxt {
+        font-size: 1.25vh;
+    }
+
+    .upper-container1 {
+        height: 55vh;
+    }
+}
