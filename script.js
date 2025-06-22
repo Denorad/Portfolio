@@ -1,5 +1,3 @@
-let storedLang = localStorage.getItem("lang");
-let frenchFlag = storedLang === null ? true : storedLang === "true";
 
 const en = {
     "Présentation": "About me",
@@ -107,6 +105,8 @@ const fr = {
     "Main code editor I have used in recent years.": "Éditeur de code principal que j'ai utilisé lors des dernières années."
 };
 
+let storedLang = localStorage.getItem("lang");
+let frenchFlag = storedLang === null ? true : storedLang === "true";
 setLanguage(frenchFlag);
 
 async function loadJson() {
