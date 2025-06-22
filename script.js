@@ -1,4 +1,4 @@
-let frenchFlag = false
+let frenchFlag = true
 
 const en = {
     "Présentation": "About me",
